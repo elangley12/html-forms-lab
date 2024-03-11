@@ -46,16 +46,20 @@
             </tr>
         </table>
 
-Order Form
-
-Your name
-
-Who are we sending this to?
-
-Choose a melon
-Watermelon
-Canteloupe
-Honeydew
+        <h2>Order Form</h2>
+        <form>
+            Your name
+            <input type="text" name="name">
+            
+            Who are we sending this to?
+            <input type="text" name="recipient">
+            
+            Choose a melon
+            <select name="melon">
+                <option value="watermelon">Watermelon</option>
+                <option value="canteloupe">Canteloupe</option>
+                <option value="honeydew">Honeydew</option>
+            </select>
 
 When should we deliver?
 Morning
@@ -66,5 +70,6 @@ Enter your message:
 
 Subscribe to our newsletter
 Yes
+        </form>
     </body>
 </html>
